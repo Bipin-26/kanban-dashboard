@@ -1,0 +1,1 @@
+print("This is server application for kanban dashboard")
