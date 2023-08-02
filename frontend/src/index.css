@@ -1,0 +1,34 @@
+:root {
+  --mainbg: #273444;
+  --drawerbg: #1f2f3e;
+  --primary-text:#ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Mui styling */
+
+.Main{
+  margin-top: 85px;
+  margin-left:275px;
+}
+a {
+  text-decoration: none;
+  color:var(--mainbg);
+}
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+  background-color: var(--mainbg);
+}
